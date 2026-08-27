@@ -37,7 +37,7 @@ int main(){
     printf("%d\n", maior);
     printf("%d\n", pos);
 
-    //Liberando memória
+    //Liberando espaço de memória
     free(vetor);
     
     return 0;
