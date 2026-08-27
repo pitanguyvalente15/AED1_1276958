@@ -36,6 +36,9 @@ int main(){
     //imprimindo os resultados;
     printf("%d\n", maior);
     printf("%d\n", pos);
+
+    //Liberando memória
+    free(vetor);
     
     return 0;
 }
