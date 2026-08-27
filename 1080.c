@@ -22,7 +22,7 @@ int main() {
     }
     //imprimindo o maior numero e sua posicao
     printf("%d\n", maior);
-    printf("%d", pos);
+    printf("%d\n", pos);
     
     return 0;
 }
