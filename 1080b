@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int n, maior, pos;
+    int *vetor;
+
+    //usuario escolhe a quantidade de posições do vetor
+    printf("Digite o numero de posicoes do vetor: ");
+    scanf("%d", &n);
+
+    //alocação dinâmica do vetor
+    vetor = (int *) malloc(n * sizeof(int));
+    if(vetor == NULL){
+        printf("Erro: Posicoes em excesso");
+        return 1;
+    }
+
+    //preenchendo o vetor
+    for(int i = 0; i<n; i++){
+        vetor[i] = i*i;
+    }
+
+    //determinando o maior numero e sua posicao
+    maior = vetor[0];
+    pos = 0;
+
+    //achando o maior numero e sua posicao
+    for(int i = 0; i<n; i++){
+        if(vetor[i]>maior){
+            maior = vetor[i];
+            pos = i;
+        }
+    }
+
+    //imprimindo os resultados;
+    printf("%d\n", maior);
+    printf("%d\n", pos);
+    
+    return 0;
+}
