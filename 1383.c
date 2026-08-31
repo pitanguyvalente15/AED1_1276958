@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------
+Disciplina : Algoritmos e Estruturas de Dados 2026S2
+Nome : <<>>
+Linguagem : C
+Problema : https://judge.beecrowd.com/pt/problems/view/1383
+Data : 24/08/2026
+Objetivo : Escrever um programa que verifique se uma matriz preenchida é uma solução para o quebra-cabeça ou não.
+Dificuldade : O principal desafio neste problema foi descobrir como verificar os 9 blocos do sudoku.
+Uso de IA : Usei auxílio da IA para compreender como verificar os 9 blocos do sudoku.
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
 
 // Verifica linhas, colunas e blocos de uma vez
