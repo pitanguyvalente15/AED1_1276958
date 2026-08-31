@@ -1,3 +1,14 @@
+/* --------------------------------------------------------------------------
+Disciplina : Algoritmos e Estruturas de Dados 2026S2
+Nome : <<>>
+Linguagem : C
+Problema : https://judge.beecrowd.com/pt/problems/view/1080
+Data : 24/08/2026
+Objetivo : Leia 100 números inteiros. Imprima o maior valor lido e a posição de entrada.
+Dificuldade : O principal desafio neste problema foi calcular a posição exata do maior número, já que decidi guardar os 100 valores em uma matriz.
+Uso de IA : Não usei IA.
+-------------------------------------------------------------------------- */
+
 #include <stdio.h>
  
 int main() {
